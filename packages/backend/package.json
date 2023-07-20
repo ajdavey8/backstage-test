@@ -33,11 +33,13 @@
     "@backstage/plugin-search-backend-module-pg": "^0.5.4",
     "@backstage/plugin-search-backend-node": "^1.1.4",
     "@backstage/plugin-techdocs-backend": "^1.6.0",
+    "@types/fs-extra": "^11.0.1",
     "app": "link:../app",
     "better-sqlite3": "^8.0.0",
     "dockerode": "^3.3.1",
     "express": "^4.17.1",
     "express-promise-router": "^4.1.0",
+    "fs-extra": "^11.1.1",
     "pg": "^8.10.0",
     "winston": "^3.2.1"
   },
