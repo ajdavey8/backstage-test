@@ -116,8 +116,8 @@ type GithubPullRequest = {
 };
 
 const filePathCheck = (filePath: string, targetPath: string | undefined) => {
-  if (filePath.startsWith('.github/')) {
-    return filePath;
+  if (filePath.startsWith('workflow')) {
+    return path.posix.join('.github', filePath);
   }
   return targetPath ? path.posix.join(targetPath, filePath) : filePath;
 };
